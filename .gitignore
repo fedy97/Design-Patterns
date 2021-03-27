@@ -3,4 +3,4 @@
 *.iml
 *.pdf
 /out
-coding
+src/coding
