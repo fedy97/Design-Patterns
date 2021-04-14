@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.mediator.ex1;
 
 public class CheckBox extends UIControl {
     private boolean isChecked;

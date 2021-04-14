@@ -1,4 +1,4 @@
-package behavioral.mediator;
+package behavioral.mediator.ex1;
 
 /**
  * behavioral.observer on roids.
@@ -16,7 +16,7 @@ public class SignUpDialogBox {
         passwordTextBox.addEventHandler(this::controlChanged);
         agreeToTermsCheckBox.addEventHandler(this::controlChanged);
     }
-    // this is the method called by update()
+    // this is the method called by update()/handle()
     private void controlChanged() {
         signUpButton.setEnabled(isFormValid());
     }
